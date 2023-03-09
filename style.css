@@ -1,0 +1,164 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+  }
+  
+
+/* Header styles (continued) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+  }
+  
+  .hero {
+    background-image: url('https://via.placeholder.com/1500x500');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero .name {
+    color: #007bff;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Main styles */
+  .projects {
+    padding: 80px 0;
+  }
+  
+  .projects h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .project a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project a:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  
